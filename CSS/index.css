@@ -5,7 +5,7 @@ body {
   color: #232629;
 }
 
-header, nav, footer {
+nav, footer {
   background: #ffffff;
   margin-bottom: 2px;
   margin-left: 20px;
@@ -14,6 +14,12 @@ header, nav, footer {
 }
 
 header {
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  margin-bottom: 2px;
+  margin-left: 20px;
+  padding: 2px;
   border-bottom: 1px solid #ffffff;
 }
 
@@ -32,12 +38,13 @@ header {
 }
 
 .domic_y_comer{
+  display: flex;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-weight: bold;
   color: rgb(124, 109, 35);
   font-size: 30px;
-  background: rgb(222, 190, 29);
   margin-top: 5px;
   margin-left: 1px;
 }
@@ -99,10 +106,6 @@ main {
   padding: 16px;
   background: #fff;
   border-radius: 8px;
-}
-
-img {
-  align-items: center;
 }
 
 article {
