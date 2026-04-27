@@ -17,6 +17,10 @@ header {
   border-bottom: 1px solid #ffffff;
 }
 
+.logo{
+  align-items: center;
+}
+
 /* CLASES */
 .titulo {
   text-align: left;
